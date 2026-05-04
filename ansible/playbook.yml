@@ -15,6 +15,7 @@
       apt:
         update_cache: yes
         cache_valid_time: 3600
+      timeout: 300
 
     # ── Node.js runtime ───────────────────────────────────────────────────────
     - name: Install Node.js {{ node_version }}
